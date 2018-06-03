@@ -17,3 +17,9 @@ function loadAllItems() {
     price: 2.00
   }];
 }
+
+//导入普通函数
+module.exports = loadAllItems;
+
+//导入对象  使用方法 allItems.loadAllItems
+//exports.allItems = loadAllItems;
